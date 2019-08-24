@@ -172,6 +172,7 @@ class Loader extends PluginBase implements Listener{
             }
             else {
                 $event->getPlayer()->setFlying(false);
+            }
     }
 
     public function mobSpawnEvent(EntitySpawnEvent $event){
